@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/zixuan/zixuan",
+    "pages/zixun/zixun"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "贝塔科技",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#2C405A",
+    "selectedColor": "#DD524D",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "text": "行情",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/hangqing.png",
+        "selectedIconPath": "./static/hangqing.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/zixun/zixun",
+        "iconPath": "static/zixun.png",
+        "selectedIconPath": "./static/zixun.png"
+      },
+      {
+        "text": "自选",
+        "pagePath": "pages/zixuan/zixuan",
+        "iconPath": "static/zixuan.png",
+        "selectedIconPath": "./static/zixuan.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

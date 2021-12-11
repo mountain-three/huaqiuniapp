@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3003195 */
+  src: url('@/static/download/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-he_5sandingguanli:before {
+  content: "\e701";
+}
+
+.icon-he_12yiliaoqiyeshujushangbao:before {
+  content: "\e705";
+}
+
+.icon-he_16zhengjianbianhaoguanli:before {
+  content: "\e706";
+}
+
