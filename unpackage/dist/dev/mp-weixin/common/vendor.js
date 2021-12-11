@@ -2179,7 +2179,7 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ 112:
+/***/ 113:
 /*!*******************************************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/index.js ***!
   \*******************************************************************************************************/
@@ -2187,9 +2187,9 @@ function normalizeComponent (
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 113));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 114));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 115));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 114));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 115));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 116));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -2197,7 +2197,7 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1
 
 /***/ }),
 
-/***/ 113:
+/***/ 114:
 /*!******************************************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/en.json ***!
   \******************************************************************************************************/
@@ -2208,7 +2208,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"select date\"
 
 /***/ }),
 
-/***/ 114:
+/***/ 115:
 /*!***********************************************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/zh-Hans.json ***!
   \***********************************************************************************************************/
@@ -2219,7 +2219,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"选择日期\
 
 /***/ }),
 
-/***/ 115:
+/***/ 116:
 /*!***********************************************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/zh-Hant.json ***!
   \***********************************************************************************************************/
@@ -2230,7 +2230,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"選擇日期\
 
 /***/ }),
 
-/***/ 123:
+/***/ 124:
 /*!*************************************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-datetime-picker/components/uni-datetime-picker/util.js ***!
   \*************************************************************************************************/
@@ -8730,7 +8730,7 @@ internalMixin(Vue);
 
 /***/ }),
 
-/***/ 37:
+/***/ 38:
 /*!*********************************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
   \*********************************************************************************************/
@@ -8738,9 +8738,9 @@ internalMixin(Vue);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 38));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 39));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 40));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 39));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 40));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 41));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -8748,7 +8748,7 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 4
 
 /***/ }),
 
-/***/ 38:
+/***/ 39:
 /*!********************************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
   \********************************************************************************************/
@@ -8756,17 +8756,6 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 4
 /***/ (function(module) {
 
 module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"Search enter content\"}");
-
-/***/ }),
-
-/***/ 39:
-/*!*************************************************************************************************!*\
-  !*** E:/huaqi/hello-uni/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
-  \*************************************************************************************************/
-/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"请输入搜索内容\"}");
 
 /***/ }),
 
@@ -9236,6 +9225,17 @@ function resolveLocaleChain(locale) {
 
 /***/ 40:
 /*!*************************************************************************************************!*\
+  !*** E:/huaqi/hello-uni/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
+  \*************************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"请输入搜索内容\"}");
+
+/***/ }),
+
+/***/ 41:
+/*!*************************************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
   \*************************************************************************************************/
 /*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
@@ -9256,7 +9256,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 
 /***/ }),
 
-/***/ 90:
+/***/ 91:
 /*!******************************************************************************!*\
   !*** E:/huaqi/hello-uni/uni_modules/uni-icons/components/uni-icons/icons.js ***!
   \******************************************************************************/

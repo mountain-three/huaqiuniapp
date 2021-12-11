@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/hangqing/hangqing",
     "pages/zixuan/zixuan",
     "pages/zixun/zixun"
   ],
@@ -18,7 +18,7 @@
     "list": [
       {
         "text": "行情",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/hangqing/hangqing",
         "iconPath": "static/hangqing.png",
         "selectedIconPath": "./static/hangqing.png"
       },

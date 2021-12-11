@@ -1,7 +1,7 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/hangqing/hangqing",
 			"style": {
 				
 			}
@@ -37,7 +37,7 @@
 		"backgroundColor":"#F8F8F8",
 		"list":[
 			{"text":"行情",
-			"pagePath":"pages/index/index",
+			"pagePath":"pages/hangqing/hangqing",
 			"iconPath":"static/hangqing.png",
 			"selectedIconPath":"./static/hangqing.png"},
 			{"text":"资讯",
